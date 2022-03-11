@@ -4,10 +4,10 @@ Summary
 =======
 
 <!--ts-->
-   * [About](#About)
-   * [Details](#Details)
+   * [About](#about)
+   * [Details](#details)
    * [Installation](#installation)
-   * [Usage](#Usage)
+   * [Usage](#usage)
  
 <!--te-->
 
