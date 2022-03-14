@@ -2,13 +2,13 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 import { styles } from './styles';
+import { theme } from '../../global/styles/theme';
 import PlayerSvg from '../../assets/player.svg';
 import CalendarSvg from '../../assets/calendar.svg';
 
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { categories } from '../../utils/categories';
 import { GuildIcon } from '../GuildIcon';
-import { theme } from '../../global/styles/theme';
 
 
 export type GuildProps = {
@@ -49,7 +49,6 @@ export function Appointment({data, ...rest}: Props) {
                     <Text style={styles.title}> 
                         {data.guild.name}
                     </Text>
-
                     <Text style={styles.category}>
                         {category.title}
                     </Text>  
