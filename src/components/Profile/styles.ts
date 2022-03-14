@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         alignItems: 'center',
+        maxWidth:'61%'
     },
     user: {
         flexDirection: 'row',
