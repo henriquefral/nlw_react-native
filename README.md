@@ -32,6 +32,7 @@ This app is built with TypeScript.
 To creating the application, I used these technologies:
 
  - Expo
+ - JWT
 
 <BR/>
 
